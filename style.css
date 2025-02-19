@@ -475,6 +475,35 @@ span {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 50px var(--main-color);
 }
+
+.skills {
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.website-item {
+  text-align: center;
+  width: 150px;
+}
+
+.website-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0.5rem;
+}
+
+.website-item h2 {
+  font-size: 1rem;
+  color: #333;
+}
+
 .testimonials {
   background: var(--bg-color);
 }
