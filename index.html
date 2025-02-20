@@ -178,7 +178,21 @@ Plymouth University / NSBM<br/>
               { name: "We See You", img: "./VCU.png", url: "https://udithavithanage.vercel.app/" }
             ];
 
-      
+      // Generate and insert website items dynamically
+            document.getElementById("websitesList").innerHTML = badge
+              .map(wbadge => `
+                <div class="badge-item">
+                  <a href="${website.url}" target="_blank">
+                    <img src="${badge.img}" alt="${badge.name}" />
+                    <h2>${badge.name}</h2>
+                  </a>
+                </div>
+              `)
+              .join("");
+          </script>    
+        </div>
+      </div>
+    </section>
 
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
