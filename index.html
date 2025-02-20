@@ -165,34 +165,7 @@ Plymouth University / NSBM<br/>
         .join("");
     </script>
 
- <section class="badge" id="badge">
-      <div class="badge-box">
-        <h2 class="heading"><span>MY</span> badge</h2>
-        <div class="badge-wrapper" id="websitesList">
-          <script>
-            // Array of website details
-            const badge = [
-              { name: "Fortinet", img: "./fortinetf.png", url: "x" },
-              { name: "Video Downloader", img: "./videoDownloader.png", url: "https://videodownloaderv2-9gvseiqgr-udithavithanages-projects.vercel.app/" },
-              { name: "VCU Calculators", img: "./VCUCal.png", url: "https://calculators-peach.vercel.app/" },
-              { name: "We See You", img: "./VCU.png", url: "https://udithavithanage.vercel.app/" }
-            ];
-
-      // Generate and insert website items dynamically
-            document.getElementById("websitesList").innerHTML = badge
-              .map(badge => `
-                <div class="badge-item">
-                  <a href="${website.url}" target="_blank">
-                    <img src="${badge.img}" alt="${badge.name}" />
-                    <h2>${badge.name}</h2>
-                  </a>
-                </div>
-              `)
-              .join("");
-          </script>    
-        </div>
-      </div>
-    </section>
+ 
 
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
