@@ -180,7 +180,7 @@ Plymouth University / NSBM<br/>
 
       // Generate and insert website items dynamically
             document.getElementById("websitesList").innerHTML = badge
-              .map(wbadge => `
+              .map(badge => `
                 <div class="badge-item">
                   <a href="${website.url}" target="_blank">
                     <img src="${badge.img}" alt="${badge.name}" />
